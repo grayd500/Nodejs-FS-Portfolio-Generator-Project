@@ -1,29 +1,75 @@
-# Module 09 Mini-Project: Portfolio Generator
+# Portfolio Generator
 
-In this activity, you will build a command-line tool that generates an HTML portfolio page from user input.
+## Description
 
-## Instructions
+This project is a command-line Portfolio Generator, designed to create a personalized HTML portfolio page from user input. The tool is built to streamline the process of portfolio creation, making it more accessible and efficient for users. It's particularly useful for professionals who want to quickly generate a portfolio without delving into extensive web development.
 
-* Your application should prompt the user for information like their name, location, bio, LinkedIn URL, and GitHub URL. Feel free to add any additional prompts you think of.
+- **Motivation:** To provide a simple, user-friendly tool for creating professional portfolios.
+- **Purpose:** To enable users to easily generate a personalized portfolio page.
+- **Problem Solved:** Simplifies the portfolio creation process, saving time and effort.
+- **Learning Outcome:** Gained experience in Node.js, the use of `fs` module, `inquirer` for user input, and dynamic HTML generation using template literals.
 
-* An HTML document containing the information collected from the prompts should be constructed and written to the file system. Make sure to add some CSS styling to the document.
+## Table of Contents
 
-* You’ll need the following tools and technologies to accomplish this:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-  * `fs` for writing to the file system
+## Installation
 
-  * `inquirer` version 8.2.4 for collecting user input
+To set up the Portfolio Generator:
 
-  * String template literals for generating a string version of the HTML document before it is written to the file system
+1. Clone the repository to your local machine.
+2. Install the required dependencies by running `npm install`.
+3. Start the application by running `node index.js` from the command line.
 
-## 💡 Hints
+## Usage
 
-It might be a good idea to start building out the HTML skeleton in a real HTML file. Once you're happy with the HTML file's appearance in the browser, you can copy and paste its contents into a string template literal. Then you can write a function to insert the user input into the appropriate places in the HTML string before writing it to the file system.
+To use this tool:
 
-## 🏆 Bonus
+1. Run the application from the command line.
+2. Answer the prompts about your name, location, bio, LinkedIn URL, and GitHub URL.
+3. The tool will generate an HTML document with the provided information and save it to your desired location.
 
-* Instead of using callback functions, what are some other tools in JavaScript we can use to handle asynchronous functionality?
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
 
----
+## Credits
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+- UT Austin Coding Bootcamp for providing the starter code. [UT Austin Coding Bootcamp](https://bootcamp.utexas.edu/)
+- ChatGPT-4 for assistance with code snippets and the README.md file.
+
+## License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+## Badges
+
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/portfolio-generator)
+![GitHub contributors](https://img.shields.io/github/contributors/your-username/portfolio-generator)
+
+## Features
+
+- Interactive CLI for user input.
+- Dynamic HTML generation using JavaScript template literals.
+- Customizable portfolio sections based on user responses.
+
+## How to Contribute
+
+If you're interested in contributing to the Portfolio Generator project:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
+## Tests
+
+Run any tests associated with the Portfolio Generator using `npm test`.
+
+## Bonus
+
+- Explore using Promises, async/await for handling asynchronous operations more efficiently in JavaScript.

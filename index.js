@@ -69,3 +69,11 @@ inquirer.prompt(questions)
     console.log('Portfolio generated!');
   });
 });
+
+
+// BONUS
+
+// Promises: A Promise in JavaScript represents a value that may not be available yet but will be at some point. It simplifies handling asynchronous operations over callbacks. The .then() and .catch() methods are used to handle resolved or rejected promises, respectively.
+// Async/Await: This is syntactic sugar built on top of Promises, designed to make asynchronous code look and behave more like synchronous code. This is very useful for avoiding "callback hell."
+// Event Emitters: In Node.js, you can use Event Emitters to handle asynchronous events. This is useful in scenarios where you want multiple parts of your application to react to the same asynchronous operation.
+// Observables: This is an advanced concept and is part of the ReactiveX library. Observables are similar to promises but can be canceled and can return multiple values over time.
